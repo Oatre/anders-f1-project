@@ -1,6 +1,13 @@
 .App {
   text-align: center;
 }
+@font-face {
+  font-family: 'f1Font'; /* Replace 'YourCustomFont' with your chosen font name */
+  src: url('./Fonts/Formula1-Regular-1.ttf') format('truetype'); 
+}
+body {
+  font-family: 'f1Font', sans-serif; /* Apply custom font to the whole body */
+}
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #FF1801;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +42,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+p {
+  font-family: 'Formula 1', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
