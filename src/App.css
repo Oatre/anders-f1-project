@@ -2,11 +2,11 @@
   text-align: center;
 }
 @font-face {
-  font-family: 'f1Font'; /* Replace 'YourCustomFont' with your chosen font name */
+  font-family: 'f1Font'; 
   src: url('./Fonts/Formula1-Regular-1.ttf') format('truetype'); 
 }
 body {
-  font-family: 'f1Font', sans-serif; /* Apply custom font to the whole body */
+  font-family: 'f1Font', sans-serif; 
 }
 
 .App-logo {
@@ -48,3 +48,4 @@ p {
   font-size: 20px;
   font-weight: bold;
 }
+

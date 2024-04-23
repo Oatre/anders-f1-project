@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Calendar from './calendar.js'; // Import the Calendar component
-import f1Font from './Fonts/Formula1-Regular-1.ttf'; // Import the custom F1 font
+import Calendar from './Calendar.jsx'; // Import the Calendar component
+import f1Font from './Fonts/Formula1-Regular-1.ttf'; 
 
 function App() {
   React.useEffect(() => {
@@ -19,14 +19,6 @@ function App() {
           a fun and interactive Formula 1 dashboard!
         </p>
         <Calendar /> {/* Use the Calendar component */}
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
