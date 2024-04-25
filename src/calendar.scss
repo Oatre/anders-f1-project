@@ -5,11 +5,29 @@
 
 .calendar-event-wrapper {
   position: absolute;
-  top: 0;
-  left: 0;
+  bottom: 0;
   padding: 16px;
   background-color: #470202;
   border-radius: 15px;
   margin-bottom: 20px;
   font-family: "f1Font", sans-serif;
+}
+.calendar-event-wrapper {
+  p {
+    font-family: "Formula 1", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    margin: 4px;
+  }
+}
+.calendar-event-wrapper {
+  h3 {
+    font-family: "Formula 1", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 2px;
+    margin: 8px;
+    border-bottom: 2px solid #ffffff;
+  }
 }

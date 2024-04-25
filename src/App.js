@@ -13,11 +13,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <h1 style= {{ position: 'absolute', top: 0 }}> //inline styled, will change later
           Welcome to DOWN THE STRAIGHT
           <br />
           a fun and interactive Formula 1 dashboard!
-        </p>
+        </h1>
         <Calendar /> {/* Use the Calendar component */}
       </header>
     </div>

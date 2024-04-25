@@ -57,11 +57,11 @@ function Calendar() {
   return (
     <>
       <div className="calendar-event-wrapper">
-        <h2>F1 Calendar</h2>
         {nextRace && (
           <div key={nextRace.id}>
+            <p>Next Grand Prix</p>
             <h3>{nextRace.raceName}</h3>
-            <p className="curcuit">Circuit: {nextRace.Circuit.circuitName}</p>
+            <p>Circuit: {nextRace.Circuit.circuitName}</p>
             <p>
               Location: {nextRace.Circuit.Location.locality},{" "}
               {nextRace.Circuit.Location.country}
