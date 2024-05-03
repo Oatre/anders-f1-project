@@ -59,31 +59,19 @@ function Calendar() {
       <div className="calendar-event-wrapper">
         {nextRace && (
           <div key={nextRace.id}>
-            <p>Next Grand Prix</p>
             <h3>{nextRace.raceName}</h3>
             <p>Circuit: {nextRace.Circuit.circuitName}</p>
             <p>
               Location: {nextRace.Circuit.Location.locality},{" "}
               {nextRace.Circuit.Location.country}
             </p>
-            <p>Date: {nextRace.date}</p>
-            <p>Time: {formattedStartTime}</p>
+            <p>
+              Date and time: {nextRace.date} - {formattedStartTime}
+            </p>
             <p>Time until lights out: {countdown}</p>
           </div>
         )}
       </div>{" "}
-      {/* {nextRace && ( //
-        <div className="calendar-item" key={nextRace.id}>
-          <h3>{nextRace.raceName}</h3>
-          <p>Circuit: {nextRace.Circuit.circuitName}</p>
-          <p>
-            Location: {nextRace.Circuit.Location.locality},{" "}
-            {nextRace.Circuit.Location.country}
-          </p>
-          <p>Date: {nextRace.date}</p>
-          <p>Time: {formattedStartTime}</p>
-        </div>
-      )} */}
     </>
   );
 }
