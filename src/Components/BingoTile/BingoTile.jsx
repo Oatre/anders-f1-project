@@ -14,7 +14,7 @@ const BingoTile = () => {
                 type="text"
                 value={inputValue}
                 onChange={handleInputChange}
-                placeholder="yoyo" />
+                placeholder="Fill in your card!" />
         </div>
     );
 };
