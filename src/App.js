@@ -3,6 +3,7 @@ import './App.css';
 import Calendar from './Components/Calendar/Calendar.jsx';
 import f1Font from './Fonts/Formula1-Regular-1.ttf';
 import HeroBanner from './Components/HeroBanner/HeroBanner.jsx';
+import BingoTile from './Components/BingoTile/BingoTile.jsx';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <header className="App-header">
         <Calendar />
         <HeroBanner />
+        <BingoTile />
       </header>
     </div>
   );
