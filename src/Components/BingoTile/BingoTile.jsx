@@ -43,5 +43,6 @@ const BingoTile = () => {
       )}
     </div>
   );
+
 };
 export default BingoTile;
