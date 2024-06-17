@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Calendar /> 
+        {/* <Calendar /> Removing calendar for now to work on bingoboard without elements overlapping for now */}
         <HeroBanner />
         <BingoGrid />
       </header>

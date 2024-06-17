@@ -1,29 +1,36 @@
 @font-face {
-    font-family: "f1Font";
-    src: url("../../Fonts/Formula1-Regular-1.ttf") format("truetype");
-  }
+  font-family: "f1Font";
+  src: url("../../Fonts/Formula1-Regular-1.ttf") format("truetype");
+}
 
 .BingoTile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    border: 6px solid white;
-    margin: 5px;
-    background-color:#535c68;
-    input {
-        max-width: 80%;
-        background: transparent;
-        color: white;
-        border: none;
-        font-size: large;
-        text-align: center;
-        &::placeholder {
-            color: white;
-            font-size: larger;
-            font-family: 'F1Font', sans-serif;
-          
-        }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 6px solid red;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+  input {
+    max-width: 80%;
+    background: transparent;
+    color: black;
+    border: none;
+    font-size: large;
+    text-align: center;
+    
+    &::placeholder {
+      color: black;
+      font-size: larger;
+      font-family: "F1Font", sans-serif;
     }
+  }
 }
