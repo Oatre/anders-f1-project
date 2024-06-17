@@ -30,7 +30,7 @@ const BingoTile = () => {
   return (
     <div className="BingoTile">
       {isInputFinal ? (
-        <p>{inputValue}</p>
+        <p onClick={() => setIsInputFinal(false)}>{inputValue}</p>
       ) : (
         <input
           type="text"
@@ -38,8 +38,9 @@ const BingoTile = () => {
           onChange={handleInputChange}
           onBlur={handleInputBlur}
           onKeyDown={handleEnterKey}
-          placeholder="Fill card"
+          placeholder="Fill"
         /> // Want to fix that fill and card are on seperate lines later, for now leave as is
+          // Having just 'fill' for now 
       )}
     </div>
   );
